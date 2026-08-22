@@ -1,4 +1,4 @@
-# UWB Radar Point-Cloud Enhancement
+# Diffusion-Based Real-Time Point-Cloud Enhancement for UWB Radar
 
 This repository accompanies the work **Diffusion-Based Real-Time Point-Cloud
 Enhancement for UWB Radar**. It provides the processed, synchronized UWB radar
@@ -57,8 +57,8 @@ The example above is the synchronized pair `dataset_aligned_D7/000499.png`.
 The complete dataset is distributed as a GitHub Release asset:
 
 ```bash
-wget https://github.com/dzhisu644-wq/uwb-radar-pointcloud-enhancement/releases/download/dataset-v1.0/X7_A1_dataset_v1.tar.zst
-wget https://github.com/dzhisu644-wq/uwb-radar-pointcloud-enhancement/releases/download/dataset-v1.0/X7_A1_dataset_v1.tar.zst.sha256
+wget https://github.com/dzhisu644-wq/diffusion-uwb-point-cloud-enhancement/releases/download/dataset-v1.0/X7_A1_dataset_v1.tar.zst
+wget https://github.com/dzhisu644-wq/diffusion-uwb-point-cloud-enhancement/releases/download/dataset-v1.0/X7_A1_dataset_v1.tar.zst.sha256
 sha256sum -c X7_A1_dataset_v1.tar.zst.sha256
 tar -I zstd -xf X7_A1_dataset_v1.tar.zst
 ```
