@@ -1,0 +1,126 @@
+{
+  "split_id": "paper_8f_12scene_all_train",
+  "status": "paper_configuration",
+  "data_root_at_generation": "X7_A1_dataset",
+  "protocol": "all 12 development scenes are used for optimizer updates",
+  "train_ratio": 1.0,
+  "guard_frames_per_scene": 0,
+  "condition_total_frames": 8,
+  "validation_policy": "no in-domain validation set; fixed training schedule and complete ablation reporting",
+  "unseen_test_policy": "L2 is external to this training root and is never loaded here",
+  "scene_count": 12,
+  "total_pairs": 93518,
+  "total_train_frames": 93518,
+  "total_guard_frames": 0,
+  "total_validation_frames": 0,
+  "scenes": [
+    {
+      "dataset": "dataset_aligned_D7",
+      "scene": "D7",
+      "pairs": 3173,
+      "train_frames": 3173,
+      "guard_frames": 0,
+      "validation_frames": 0,
+      "names_sizes_sha256": "25b2bc9d273a756495268e03a8814be934842e2da1709a623a2604947f83395b"
+    },
+    {
+      "dataset": "dataset_aligned_G7",
+      "scene": "G7",
+      "pairs": 11184,
+      "train_frames": 11184,
+      "guard_frames": 0,
+      "validation_frames": 0,
+      "names_sizes_sha256": "23d725b739b267167defa7724754c9ed4085dc604f3f13fefc4e17cb3afdcdd0"
+    },
+    {
+      "dataset": "dataset_aligned_H",
+      "scene": "H",
+      "pairs": 11400,
+      "train_frames": 11400,
+      "guard_frames": 0,
+      "validation_frames": 0,
+      "names_sizes_sha256": "d85c58242da8997fb6556302012731bf1275a4c050aedc9955877da37d5bc0a9"
+    },
+    {
+      "dataset": "dataset_aligned_J2",
+      "scene": "J2",
+      "pairs": 9184,
+      "train_frames": 9184,
+      "guard_frames": 0,
+      "validation_frames": 0,
+      "names_sizes_sha256": "2017714d308d52418a2c5233f0bf9557fe85e541bc9e7034a40d800e99fb5ac7"
+    },
+    {
+      "dataset": "dataset_aligned_K1",
+      "scene": "K1",
+      "pairs": 7227,
+      "train_frames": 7227,
+      "guard_frames": 0,
+      "validation_frames": 0,
+      "names_sizes_sha256": "1a969745d916e986aeabfe998814476ebcffbbde47e06a3942ddff7c500e31b7"
+    },
+    {
+      "dataset": "dataset_aligned_K5",
+      "scene": "K5",
+      "pairs": 4564,
+      "train_frames": 4564,
+      "guard_frames": 0,
+      "validation_frames": 0,
+      "names_sizes_sha256": "6bc4858d6719172adbff0f6cf09702768995620a4ddb7b2397069ea7c38598f1"
+    },
+    {
+      "dataset": "dataset_aligned_L10",
+      "scene": "L10",
+      "pairs": 13678,
+      "train_frames": 13678,
+      "guard_frames": 0,
+      "validation_frames": 0,
+      "names_sizes_sha256": "a63b883066878ff86041d797696f7e4e64c99f64b131b7441a8ba22409955d07"
+    },
+    {
+      "dataset": "dataset_aligned_L1_S",
+      "scene": "L1_S",
+      "pairs": 2546,
+      "train_frames": 2546,
+      "guard_frames": 0,
+      "validation_frames": 0,
+      "names_sizes_sha256": "166392a2cecb1dc49c25f8133c5f9963bd0c0b6b74d66ad0cd08b9317257517f"
+    },
+    {
+      "dataset": "dataset_aligned_L6",
+      "scene": "L6",
+      "pairs": 8318,
+      "train_frames": 8318,
+      "guard_frames": 0,
+      "validation_frames": 0,
+      "names_sizes_sha256": "f5dfc5f8bd70e86c683f8aa4120e3ffcdb8d45c7d6051202a7bcb26724d43f43"
+    },
+    {
+      "dataset": "dataset_aligned_T3",
+      "scene": "T3",
+      "pairs": 11318,
+      "train_frames": 11318,
+      "guard_frames": 0,
+      "validation_frames": 0,
+      "names_sizes_sha256": "1dfd7373ae74fa9c16368e05079124837bde1abde85bda59bf6d050cb39f34ea"
+    },
+    {
+      "dataset": "dataset_aligned_T5",
+      "scene": "T5",
+      "pairs": 5174,
+      "train_frames": 5174,
+      "guard_frames": 0,
+      "validation_frames": 0,
+      "names_sizes_sha256": "f4faaf53b4917a782f20d013633c322326092ae1530547a0fc43d2e1c0e18a9c"
+    },
+    {
+      "dataset": "dataset_aligned_T6",
+      "scene": "T6",
+      "pairs": 5752,
+      "train_frames": 5752,
+      "guard_frames": 0,
+      "validation_frames": 0,
+      "names_sizes_sha256": "120b2cde32a25d43ed59444b9eeb67db2fbaed97572052ae219dbb754bc1ad60"
+    }
+  ]
+}

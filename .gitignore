@@ -1,2 +1,9 @@
 *.tar.zst
 *.tar.zst.sha256
+__pycache__/
+*.py[cod]
+.venv/
+weights/
+runs/
+evaluation_results/
+X7_A1_dataset/

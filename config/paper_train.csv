@@ -1,0 +1,13 @@
+split_id,dataset,scene,split,start_index,end_index_exclusive,frames,num_past_frames,history_policy,guard_frames,notes
+paper_8f_12scene_all_train,dataset_aligned_D7,D7,train,0,3173,3173,7,bounded_within_full_scene,0,complete scene; no in-domain validation split
+paper_8f_12scene_all_train,dataset_aligned_G7,G7,train,0,11184,11184,7,bounded_within_full_scene,0,complete scene; no in-domain validation split
+paper_8f_12scene_all_train,dataset_aligned_H,H,train,0,11400,11400,7,bounded_within_full_scene,0,complete scene; no in-domain validation split
+paper_8f_12scene_all_train,dataset_aligned_J2,J2,train,0,9184,9184,7,bounded_within_full_scene,0,complete scene; no in-domain validation split
+paper_8f_12scene_all_train,dataset_aligned_K1,K1,train,0,7227,7227,7,bounded_within_full_scene,0,complete scene; no in-domain validation split
+paper_8f_12scene_all_train,dataset_aligned_K5,K5,train,0,4564,4564,7,bounded_within_full_scene,0,complete scene; no in-domain validation split
+paper_8f_12scene_all_train,dataset_aligned_L10,L10,train,0,13678,13678,7,bounded_within_full_scene,0,complete scene; no in-domain validation split
+paper_8f_12scene_all_train,dataset_aligned_L1_S,L1_S,train,0,2546,2546,7,bounded_within_full_scene,0,complete scene; no in-domain validation split
+paper_8f_12scene_all_train,dataset_aligned_L6,L6,train,0,8318,8318,7,bounded_within_full_scene,0,complete scene; no in-domain validation split
+paper_8f_12scene_all_train,dataset_aligned_T3,T3,train,0,11318,11318,7,bounded_within_full_scene,0,complete scene; no in-domain validation split
+paper_8f_12scene_all_train,dataset_aligned_T5,T5,train,0,5174,5174,7,bounded_within_full_scene,0,complete scene; no in-domain validation split
+paper_8f_12scene_all_train,dataset_aligned_T6,T6,train,0,5752,5752,7,bounded_within_full_scene,0,complete scene; no in-domain validation split
